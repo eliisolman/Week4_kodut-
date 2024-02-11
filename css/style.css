@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Protest+Strike&display=swap');
+
+
+
+
+.heading {
+    text-align: center;
+    color: white;
+    font-style: italic;
+    position: relative;
+    animation: heading;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes heading {
+    0%{top: -250px}
+    100% {top: 0px}
+  }
+  
+  .heading2 {
+    text-align: left;
+    color: rgb(236, 248, 4);
+    font-style: oblique;
+    position: relative;
+    animation: textRight;
+    animation-duration: 5s;
+    animation-timing-function: easy-in-out;
+}
+
+@keyframes heading2 {
+    0%{top: -250px}
+    100%{top: 100px;}
+}
+
+.text-right{
+    margin-top: 32px;
+    position: relative;
+    text-align: right;
+    animation: textRight;
+    animation-duration: 5s;
+}
+
+@keyframes textRight {
+     0%{right: -1000px;}
+     85% {right: 50px;}
+     100%{right:0;}
+}
+
+
+body {
+    background-color: rgb(244, 172, 216);
+}
+
+.kirjukoer-heading {
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    position: relative;
+    animation: textLeft;
+    animation-duration: 5s;
+    animation-timing-function: easy-in-out;
+}
+
+@keyframes textLeft {
+    0%{left: -1000px;}
+    85%{left: 50px;}
+    100%{left:0;}
+}
+   
+
+.footer {
+    color: white;
+    font-size: 1rem;
+    font-family: 'Protest Strike', sans-serif;
+    margin: 2rem;
+    padding: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    animation: footer;
+    animation-duration: 5s;
+    animation-delay: 4s;
+    animation-fill-mode: forwards;
+    text-align: center;
+}
+
+@keyframes footer {
+    0% {opacity: 0;}
+    100%{opacity: 1;}
+}
+
+._blank {
+    opacity: 0;
+    border: 2px solid white;
+    color: white;
+    font-size: 2rem;
+    font-family: 'Noto Serif', serif;
+    display: inline-block;
+    margin: 2rem;
+    padding: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    animation: anibtn;
+    animation-duration: 5s;
+    animation-delay: 4s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes _blank {
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+
+.main {
+    color: yellow;
+    font-family: italic;
+    line-height: 1,5;
+    position: relative;
+    animation: main;
+    animation-duration: 3s;
+    animation-fill-mode: forwards
+}
+
+@keyframes main {
+    0%{top: -250px}
+    100% {top: 0px}
+  }
